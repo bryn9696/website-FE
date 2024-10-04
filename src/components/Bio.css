@@ -1,0 +1,33 @@
+/* Bio.css */
+.container.bio {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+.container.bio h2 {
+    font-size: 1.5rem; 
+    margin-bottom: 15px; 
+    display: inline-flex;
+    align-items: center;
+}
+
+.container.bio .icon {
+    margin-left: 10px;
+    color: #007bff; 
+    transition: color 0.3s;
+}
+
+.container.bio .icon:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+.container.bio p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
