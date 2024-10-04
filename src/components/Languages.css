@@ -26,17 +26,30 @@
 }
 
 .be-language-list {
-    background-color: white; /* White background */
-    padding: 20px; /* Optional: Adds padding */
-    border-radius: 8px; /* Optional: Adds rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
-    margin: 20px; /* Optional: Adds margin */
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 8px;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin: 20px;  
+}
+
+.bw-languages-container ul {
+    list-style-type: none;  
+    padding: 0;  
+    margin: 0;  
 }
 
 .fe-language-list {
-    background-color: white; /* White background */
-    padding: 20px; /* Optional: Adds padding */
-    border-radius: 8px; /* Optional: Adds rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
-    margin: 20px; /* Optional: Adds margin */
+    background-color: white;  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin: 20px; 
+    max-width: 400px;
+}
+
+.fe-languages-container ul {
+    list-style-type: none;  
+    padding: 0;  
+    margin: 0;  
 }
