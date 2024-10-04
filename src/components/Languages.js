@@ -36,27 +36,31 @@ const Languages = () => {
             <div className="columns">
                 <div className="column">
                     <h3>Back End</h3>
-                    <ul className="be-language-list">
-                        {languages.backEnd.length > 0 ? (
-                            languages.backEnd.map((lang, index) => (
-                                <li key={index}>{lang}</li>
-                            ))
-                        ) : (
-                            <li>Loading...</li>
-                        )}
-                    </ul>
+                    <div className="be-language-list">
+                        <ul className="language-list">
+                            {languages.backEnd.length > 0 ? (
+                                languages.backEnd.map((lang, index) => (
+                                    <li key={index}>{lang}</li>
+                                ))
+                            ) : (
+                                <li>Loading...</li>
+                            )}
+                        </ul>
+                    </div>
                 </div>
                 <div className="column">
                     <h3>Front End</h3>
-                    <ul className="fe-language-list">
-                        {languages.frontEnd.length > 0 ? (
-                            languages.frontEnd.map((lang, index) => (
-                                <li key={index}>{lang}</li>
-                            ))
-                        ) : (
-                            <li>Loading...</li>
-                        )}
-                    </ul>
+                    <div className="fe-language-list">
+                        <ul className="language-list">
+                            {languages.frontEnd.length > 0 ? (
+                                languages.frontEnd.map((lang, index) => (
+                                    <li key={index}>{lang}</li>
+                                ))
+                            ) : (
+                                <li>Loading...</li>
+                            )}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -64,4 +68,3 @@ const Languages = () => {
 };
 
 export default Languages;
-

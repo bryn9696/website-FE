@@ -1,5 +1,3 @@
-/* src/components/Languages.css */
-
 .languages {
     text-align: center; 
 }
@@ -16,40 +14,45 @@
 }
 
 .language-list {
-    list-style-type: none; 
+    list-style-type: none; /* Ensures no bullet points */
     padding: 0;       
     margin: 0;          
+    text-align: center; /* Center text in the list */
 }
 
 .language-list li {
     margin-bottom: 8px;   
 }
 
-.be-language-list {
-    background-color: white; 
-    padding: 20px; 
-    border-radius: 8px;  
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    margin: 20px;  
-}
-
-.bw-languages-container ul {
-    list-style-type: none;  
-    padding: 0;  
-    margin: 0;  
-}
-
-.fe-language-list {
+.be-language-list, .fe-language-list {
     background-color: white;  
     padding: 20px;  
     border-radius: 8px;  
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    margin: 20px; 
-    max-width: 400px;
+    max-width: 400px; /* Adjust max width as needed */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center items horizontally */
+    margin: 0 auto; /* Center the box within the column */
 }
 
 .fe-languages-container ul {
     list-style-type: none;  
     padding: 0;  
     margin: 0;  
+}
+
+/* Media Query for Desktop */
+@media (min-width: 1024px) {
+    .columns {
+        justify-content: space-around; /* Space out the columns */
+    }
+
+    .column {
+        max-width: 450px; /* Set max width for the columns */
+    }
+
+    .be-language-list, .fe-language-list {
+        max-width: 100%; /* Allow the lists to take full width of the column */
+        margin: 10px; /* Adjust margin to reduce space around the boxes */
+    }
 }
