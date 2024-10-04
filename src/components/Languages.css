@@ -24,3 +24,19 @@
 .language-list li {
     margin-bottom: 8px;   
 }
+
+.be-language-list {
+    background-color: white; /* White background */
+    padding: 20px; /* Optional: Adds padding */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
+    margin: 20px; /* Optional: Adds margin */
+}
+
+.fe-language-list {
+    background-color: white; /* White background */
+    padding: 20px; /* Optional: Adds padding */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
+    margin: 20px; /* Optional: Adds margin */
+}

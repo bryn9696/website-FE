@@ -36,7 +36,7 @@ const Languages = () => {
             <div className="columns">
                 <div className="column">
                     <h3>Back End</h3>
-                    <ul className="language-list">
+                    <ul className="be-language-list">
                         {languages.backEnd.length > 0 ? (
                             languages.backEnd.map((lang, index) => (
                                 <li key={index}>{lang}</li>
@@ -48,7 +48,7 @@ const Languages = () => {
                 </div>
                 <div className="column">
                     <h3>Front End</h3>
-                    <ul className="language-list">
+                    <ul className="fe-language-list">
                         {languages.frontEnd.length > 0 ? (
                             languages.frontEnd.map((lang, index) => (
                                 <li key={index}>{lang}</li>
