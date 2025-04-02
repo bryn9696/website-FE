@@ -19,7 +19,7 @@ const ContactForm = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('https://bryn-cv-backend-bf2aa1ebc082.herokuapp.com/api/contact', {
+            const response = await fetch('https://brynsportfolio-250385a06865.herokuapp.com/api/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

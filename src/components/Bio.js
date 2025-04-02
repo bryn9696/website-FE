@@ -5,7 +5,7 @@ import './Bio.css';
 
 const Bio = () => {
     const [bio, setBio] = useState(null); 
-    const API_URL = 'https://bryn-cv-backend-bf2aa1ebc082.herokuapp.com';
+    const API_URL = 'https://brynsportfolio-250385a06865.herokuapp.com/';
 
     useEffect(() => {
         const fetchBio = async () => {
