@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api';
+const API_URL = 'https://bryncvbackend-9446d4fd6df1.herokuapp.com/api';
 
 export const getBio = async () => {
   const response = await axios.get(`${API_URL}/bio`);
