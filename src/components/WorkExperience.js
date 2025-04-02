@@ -8,7 +8,7 @@ const WorkExperience = () => {
     useEffect(() => {
         const fetchWorkExperience = async () => {
             try {
-                const response = await fetch('https://brynsportfolio-250385a06865.herokuapp.com/api/workExperience');
+                const response = await fetch('https://bryncvbackend-9446d4fd6df1.herokuapp.com/api/workExperience');
                 
                 // Check if the response is okay (status in the range 200-299)
                 if (!response.ok) {

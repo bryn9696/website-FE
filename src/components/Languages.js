@@ -5,7 +5,7 @@ import './Languages.css'; // Import the CSS file for styling
 
 const Languages = () => {
     const [languages, setLanguages] = useState({ backEnd: [], frontEnd: [] });
-    const API_URL = 'https://brynsportfolio-250385a06865.herokuapp.com/api';
+    const API_URL = 'https://bryncvbackend-9446d4fd6df1.herokuapp.com/api';
 
     useEffect(() => {
         const fetchLanguages = async () => {
